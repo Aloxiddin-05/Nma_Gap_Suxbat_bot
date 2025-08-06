@@ -10,7 +10,7 @@ def start(update:Update,context:CallbackContext):
              text = user,
              reply_markup = ReplyKeyboardMarkup(
                         keyboard=[
-                                [KeyboardButton("🛍️ Buyurtma berish",web_app = WebAppInfo("https://asaxiy.uz/"))],
+                                [KeyboardButton("🛍️ Buyurtma berish",web_app = WebAppInfo("https://eats.yandex.com/"))],
                                 [KeyboardButton("📦 Buyurtmalarim"),KeyboardButton("⚙️ Sozlamalar")],
                                 [KeyboardButton("ℹ️ Biz haqimizda"),KeyboardButton("🖊️ Fikr qoldirish")]
                         ],resize_keyboard=True,
@@ -54,7 +54,7 @@ def handler_menu(update:Update,context:CallbackContext):
                 text = "✅ Raqamingiz saqlandi!",
                 reply_markup = ReplyKeyboardMarkup(
                         keyboard=[
-                                [KeyboardButton("🛍️ Buyurtma berish",web_app = WebAppInfo("https://asaxiy.uz/"))],
+                                [KeyboardButton("🛍️ Buyurtma berish",web_app = WebAppInfo("https://eats.yandex.com/"))],
                                 [KeyboardButton("📦 Buyurtmalarim"),KeyboardButton("⚙️ Sozlamalar")],
                                 [KeyboardButton("ℹ️ Biz haqimizda"),KeyboardButton("🖊️ Fikr qoldirish")]
                         ],resize_keyboard=True,
@@ -70,7 +70,7 @@ def handler_menu02(update:Update,context:CallbackContext):
             text = "🏠 Bosh menyu",
             reply_markup = ReplyKeyboardMarkup(
                   keyboard=[
-                              [KeyboardButton("🛍️ Buyurtma berish",web_app = WebAppInfo("https://asaxiy.uz/"))],
+                              [KeyboardButton("🛍️ Buyurtma berish",web_app = WebAppInfo("https://eats.yandex.com/"))],
                               [KeyboardButton("📦 Buyurtmalarim"),KeyboardButton("⚙️ Sozlamalar")],
                               [KeyboardButton("ℹ️ Biz haqimizda"),KeyboardButton("🖊️ Fikr qoldirish")]
                   ],resize_keyboard=True,
@@ -111,7 +111,7 @@ def handler_language(update:Update,context:CallbackContext):
 def handler_about(update:Update,context:CallbackContext):
       update.message.reply_text("Biz shu yerda Joylashganmz")
       update.message.reply_markdown_v2(
-            text = "*Elektron pochta:* abloqulovnodirbek4\\@gmail\\.com",
+            text = "*Elektron pochta:* aloxiddinyogmirov651\\@gmail\\.com",
             )
 
 def handler_idea(update:Update,context:CallbackContext):
